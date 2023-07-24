@@ -12,3 +12,26 @@ body {
     height: 100%;
     width: 100%;
 }
+
+div{
+    color: red;
+    background-color: aqua;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 960px;
+    margin: auto;
+    padding: 2rem;
+
+}
+
+li{
+    text-align: right;
+    position: relative;
+    z-index: -1;
+    
+}
